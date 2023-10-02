@@ -1,0 +1,605 @@
+{
+    "DontKnowPoints": 0,
+    "Questions": [
+      {
+        "Points": 1,
+        "Question": "Какой метод JavaScript позволяет создать полноценную копию объекта, включая вложенные объекты и массивы?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 90,
+        "Answers": [
+          {
+            "Text": "Object.assign()",
+            "Correct": "false"
+          },
+          {
+            "Text": "Object.copy()",
+            "Correct": "false"
+          },
+          {
+            "Text": "Object.clone()",
+            "Correct": "false"
+          },
+          {
+            "Text": "structuredClone()",
+            "Correct": "true"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Какие ES6-функции позволяют работать с массивами, предоставляя удобные методы для их манипуляции?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 130,
+        "Answers": [
+          {
+            "Text": ".map(), .filter(), .reduce()",
+            "Correct": "true"
+          },
+          {
+            "Text": ".forEach(), .find(), .slice()",
+            "Correct": "false"
+          },
+          {
+            "Text": ".concat(), .join(), .slice()",
+            "Correct": "false"
+          },
+          {
+            "Text": ".push(), .pop(), .splice()",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое hoisting (поднятие) в JavaScript?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 130,
+        "Answers": [
+          {
+            "Text": "Процесс перемещения объявления переменных и функций в начало области видимости",
+            "Correct": "true"
+          },
+          {
+            "Text": "Техника оптимизации кода для улучшения производительности",
+            "Correct": "false"
+          },
+          {
+            "Text": "Метод обработки ошибок при работе с асинхронным кодом",
+            "Correct": "false"
+          },
+          {
+            "Text": "Объявление переменных с помощью ключевого слова \"hoist\"",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Какой атрибут HTML позволяет задать подсказку для поля ввода?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 90,
+        "Answers": [
+          {
+            "Text": "placeholder",
+            "Correct": "true"
+          },
+          {
+            "Text": "hint",
+            "Correct": "false"
+          },
+          {
+            "Text": "tooltip",
+            "Correct": "false"
+          },
+          {
+            "Text": "symbol",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое debounce и throttle в контексте обработки событий в JavaScript?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 140,
+        "Answers": [
+          {
+            "Text": "Техники оптимизации производительности для уменьшения количества лишних вызовов функций при событиях",
+            "Correct": "true"
+          },
+          {
+            "Text": "Методы сжатия данных для уменьшения объема передаваемой информации",
+            "Correct": "false"
+          },
+          {
+            "Text": "Функции для генерации случайных чисел с заданным интервалом времени",
+            "Correct": "false"
+          },
+          {
+            "Text": "Способы работы с асинхронными операциями для управления потоком выполнения кода",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Каким образом можно анимировать элементы на веб-странице с помощью CSS?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 110,
+        "Answers": [
+          {
+            "Text": "Используя ключевые кадры (keyframes) и свойство animation",
+            "Correct": "true"
+          },
+          {
+            "Text": "С помощью псевдоэлементов ::before и ::after",
+            "Correct": "false"
+          },
+          {
+            "Text": "Используя свойство float и transition",
+            "Correct": "false"
+          },
+          {
+            "Text": "С помощью псевдоклассов hover и active",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое CORS (Cross-Origin Resource Sharing)?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 150,
+        "Answers": [
+          {
+            "Text": "Способ защиты веб-ресурсов от несанкционированного доступа",
+            "Correct": "true"
+          },
+          {
+            "Text": "Метод передачи куки между разными субдоменами",
+            "Correct": "false"
+          },
+          {
+            "Text": "Политика безопасности браузера, позволяющая делить ресурсы между разными источниками",
+            "Correct": "false"
+          },
+          {
+            "Text": "Метод передачи данных между клиентом и сервером с использованием токена доступа",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое memoization и для чего оно используется в JavaScript?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 120,
+        "Answers": [
+          {
+            "Text": "Техника кэширования результатов выполнения функции для повышения производительности",
+            "Correct": "true"
+          },
+          {
+            "Text": "Метод сжатия данных для уменьшения размера передаваемой информации",
+            "Correct": "false"
+          },
+          {
+            "Text": "Механизм обработки исключительных ситуаций при возникновении ошибок",
+            "Correct": "false"
+          },
+          {
+            "Text": "Способ организации структуры кода с использованием модулей и зависимостей",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Какой метод JavaScript позволяет выполнять асинхронные операции последовательно, подряд?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 90,
+        "Answers": [
+          {
+            "Text": "async/await",
+            "Correct": "true"
+          },
+          {
+            "Text": "setInterval()",
+            "Correct": "false"
+          },
+          {
+            "Text": "Promises",
+            "Correct": "false"
+          },
+          {
+            "Text": "setTimeout()",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое progressive web application (PWA)?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 120,
+        "Answers": [
+          {
+            "Text": "Веб-приложение, которое сочетает в себе характеристики сайта и мобильного приложения",
+            "Correct": "true"
+          },
+          {
+            "Text": "Методика разработки с использованием прогрессивного улучшения (progressive enhancement)",
+            "Correct": "false"
+          },
+          {
+            "Text": "Стандарт для создания прогрессивных пользовательских интерфейсов",
+            "Correct": "false"
+          },
+          {
+            "Text": "Программа для прогрессивного анализа дизайна веб-страниц",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое Babel и для чего его используют во время разработки фронтенд-приложений?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 120,
+        "Answers": [
+          {
+            "Text": "Инструмент для компиляции кода на JavaScript в старые версии для обеспечения совместимости",
+            "Correct": "true"
+          },
+          {
+            "Text": "Инсектор кода для отладки приложений на фронтенде",
+            "Correct": "false"
+          },
+          {
+            "Text": "Библиотека для создания анимированных интерфейсов с использованием CSS",
+            "Correct": "false"
+          },
+          {
+            "Text": "Фреймворк для тестирования фронтенд-приложений и модулей",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое SSR (Server-Side Rendering) и какая польза от его использования?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 130,
+        "Answers": [
+          {
+            "Text": "Техника отрисовки веб-страницы на сервере и отправки ее пользователю как готовый HTML",
+            "Correct": "true"
+          },
+          {
+            "Text": "Метод разработки пользовательских интерфейсов с использованием серверных скриптов",
+            "Correct": "false"
+          },
+          {
+            "Text": "Инструмент для анализа производительности сервера при обработке запросов",
+            "Correct": "false"
+          },
+          {
+            "Text": "Система фильтрации ошибок и исключений на стороне сервера",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Какой метод JavaScript позволяет проверить, является ли элемент потомком другого элемента?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 130,
+        "Answers": [
+          {
+            "Text": "element.contains()",
+            "Correct": "true"
+          },
+          {
+            "Text": "element.isDescendant()",
+            "Correct": "false"
+          },
+          {
+            "Text": "element.isChild()",
+            "Correct": "false"
+          },
+          {
+            "Text": "element.isParentOf()",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое WebAssembly и для чего его используют в веб-разработке?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 140,
+        "Answers": [
+          {
+            "Text": "Бинарный формат исполнения программ на веб-странице, позволяющий запускать высокопроизводительный код на разных языках",
+            "Correct": "true"
+          },
+          {
+            "Text": "Методология разработки масштабируемых и отказоустойчивых веб-приложений",
+            "Correct": "false"
+          },
+          {
+            "Text": "Способ подключения веб-страницы к базам данных без прямого использования серверного кода",
+            "Correct": "false"
+          },
+          {
+            "Text": "Инструмент для развертывания веб-приложений на сервере с использованием контейнеров",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Какой метод JavaScript позволяет удалить элемент из DOM (дерева элементов на веб-странице)?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 90,
+        "Answers": [
+          {
+            "Text": "element.removeChild()",
+            "Correct": "false"
+          },
+          {
+            "Text": "element.delete()",
+            "Correct": "false"
+          },
+          {
+            "Text": "element.clear()",
+            "Correct": "false"
+          },
+          {
+            "Text": "element.remove()",
+            "Correct": "true"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое lazy loading (ленивая загрузка) и для чего она используется?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 150,
+        "Answers": [
+          {
+            "Text": "Техника отложенной загрузки ресурсов, таких как изображения или видео, для оптимизации производительности",
+            "Correct": "true"
+          },
+          {
+            "Text": "Методика создания адаптивного дизайна с использованием JavaScript-фреймворков",
+            "Correct": "false"
+          },
+          {
+            "Text": "Технология автоматического уменьшения размера файлов с изображениями на веб-странице",
+            "Correct": "false"
+          },
+          {
+            "Text": "Метод работы с кэш-памятью на клиентской стороне для улучшения производительности загрузки",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Какой метод CSS используется для создания адаптивной сетки с колонками?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 90,
+        "Answers": [
+          {
+            "Text": "grid-template-columns",
+            "Correct": "true"
+          },
+          {
+            "Text": "flex-direction",
+            "Correct": "false"
+          },
+          {
+            "Text": "display: inline-block",
+            "Correct": "false"
+          },
+          {
+            "Text": "float: left;",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое meta-тег Viewport в HTML и какая его роль в адаптивном дизайне?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 150,
+        "Answers": [
+          {
+            "Text": "Мета-тег, отвечающий за указание шрифта и цветовой схемы веб-страницы",
+            "Correct": "false"
+          },
+          {
+            "Text": "Тег, содержащий метаданные о веб-странице для поисковых систем",
+            "Correct": "false"
+          },
+          {
+            "Text": "Мета-тег, определяющий параметры отображения веб-страницы на мобильных устройствах",
+            "Correct": "true"
+          },
+          {
+            "Text": "Специальный тег для добавления метаинформации о версии веб-страницы",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Каким образом можно использовать localStorage в JavaScript для сохранения данных на клиентской стороне?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 110,
+        "Answers": [
+          {
+            "Text": "localStorage.setItem('key', 'value')",
+            "Correct": "true"
+          },
+          {
+            "Text": "localStorage.saveData('key', 'value')",
+            "Correct": "false"
+          },
+          {
+            "Text": "localStorage.getData('key')",
+            "Correct": "false"
+          },
+          {
+            "Text": "localStorage.updateItem('key', 'value')",
+            "Correct": "false"
+          }
+        ]
+      },
+      {
+        "Points": 1,
+        "Question": "Что такое двухстороннее связывание данных (two-way data binding) и как это работает в фреймворках, таких как Angular или Vue.js?",
+        "Code": "",
+        "AfterCodeText": "",
+        "Explanation": "",
+        "isToF": false,
+        "ToFAnswer": false,
+        "beforeHeight": 120,
+        "codeHeight": 0,
+        "answerHeight": 160,
+        "Answers": [
+          {
+            "Text": "Механизм автоматической синхронизации данных между моделью и представлением без явного кода обновления",
+            "Correct": "true"
+          },
+          {
+            "Text": "Методика кодирования информации для обмена данными между сервером и клиентом на веб-странице",
+            "Correct": "false"
+          },
+          {
+            "Text": "Способ передачи данных между разными этапами обработки формы на веб-странице",
+            "Correct": "false"
+          },
+          {
+            "Text": "Метод развертывания веб-приложений с использованием облачных сервисов и серверов",
+            "Correct": "false"
+          }
+        ]
+      }
+    ]
+}
